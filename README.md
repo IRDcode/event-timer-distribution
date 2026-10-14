@@ -1,22 +1,24 @@
 <div dir="rtl">
 
-<div align="right" style="background:#0B0B0C; padding:30px 34px; border-radius:8px;">
-<p style="color:#8A8A8A; font-size:12px; letter-spacing:3px; margin:0 0 10px 0;">IRDCODE — EVENT TIMER STUDIO</p>
-<h1 style="color:#F5F4F2; font-size:30px; margin:0;">استودیو تایمر رویداد</h1>
-<p style="color:#B4B4B4; font-size:15px; margin:12px 0 0 0;">نقطه‌ی انتشار رسمی فایل نصب</p>
-</div>
+<img src="assets/hero.svg" alt="استودیو تایمر رویداد — نصب‌ساز رسمی" width="100%" />
 
-## این ریپو چیست
+**استودیو تایمر رویداد** — ابزار شمارش معکوس رویداد با تقویم جلالی، پیش‌نمایش صحنه و تور آموزشی؛ برای اجرای زنده‌ی رویدادها روی ویندوز.
 
-- اینجا فقط فایل‌های نصب برنامه منتشر می‌شود؛ سورس‌کد در ریپوی خصوصی توسعه داده می‌شود و اینجا نیست.
-- شرح تغییرات هر نسخه، در صفحه‌ی همان انتشار نوشته شده است.
+| نسخه‌ی فعلی | حجم فایل | سیستم‌عامل | اتصال |
+|:---:|:---:|:---:|:---:|
+| 0.5.0 | حدود ۸۳ مگابایت | ویندوز ۱۰/۱۱ (۶۴ بیتی) | کاملاً آفلاین |
+
+<img src="assets/features.svg" alt="امکانات استودیو تایمر رویداد" width="100%" />
 
 ## دانلود
 
-**[آخرین نسخه‌ی پایدار](https://github.com/IRDcode/event-timer-distribution/releases/latest)**
+<p align="right">
+<a href="https://github.com/IRDcode/event-timer-distribution/releases/latest" style="display:inline-block; background:#F5F4F2; color:#0B0B0C; padding:14px 36px; border-radius:8px; font-weight:700; text-decoration:none; font-size:18px;">دانلود آخرین نسخه — 0.5.0</a>
+</p>
 
-- فایل نصب: `Event.Timer.Studio-<نسخه>-setup.exe` — نسخه‌ی فعلی `0.5.0`، حدود ۸۳ مگابایت.
+- فایل نصب: `Event.Timer.Studio-0.5.0-setup.exe`
 - فقط فایل `setup.exe` را دانلود کنید؛ `latest.yml` و `.blockmap` مخصوص به‌روزرسانی خودکار برنامه‌اند.
+- شرح تغییرات هر نسخه، در صفحه‌ی همان انتشار نوشته شده است.
 
 ## نصب
 
