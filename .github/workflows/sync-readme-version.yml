@@ -1,0 +1,29 @@
+name: Sync README version
+
+# Keeps the version, installer filename and size shown in README.md and the
+# SVG banners in sync with the latest published release.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Fill version tokens from the release
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/sync_version.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "docs: sync README version to ${{ github.event.release.tag_name }}"
+          git push
