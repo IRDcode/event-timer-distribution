@@ -1,6 +1,6 @@
 <div dir="rtl">
 
-<img src="assets/hero.svg?v=0.5.0" alt="استودیو تایمر رویداد — نصب‌ساز رسمی" width="100%" />
+<img src="assets/hero.svg?v=4" alt="استودیو تایمر رویداد — نصب‌ساز رسمی" width="100%" />
 
 **استودیو تایمر رویداد** — ابزار شمارش معکوس رویداد با تقویم جلالی، پیش‌نمایش صحنه و تور آموزشی؛ برای اجرای زنده‌ی رویدادها روی ویندوز.
 
@@ -8,12 +8,12 @@
 |:---:|:---:|:---:|:---:|
 | 0.5.0 | حدود ۸۳ مگابایت | ویندوز ۱۰/۱۱ (۶۴ بیتی) | کاملاً آفلاین |
 
-<img src="assets/features.svg?v=0.5.0" alt="امکانات استودیو تایمر رویداد" width="100%" />
+<img src="assets/features.svg?v=4" alt="امکانات استودیو تایمر رویداد" width="100%" />
 
 ## دانلود
 
 <p align="right">
-<a href="https://github.com/IRDcode/event-timer-distribution/releases/latest" style="display:inline-block; background:#F5F4F2; color:#0B0B0C; padding:14px 36px; border-radius:8px; font-weight:700; text-decoration:none; font-size:18px;">دانلود آخرین نسخه — 0.5.0</a>
+<a href="https://github.com/IRDcode/event-timer-distribution/releases/latest" style="display:inline-block; background:linear-gradient(135deg,#FFB03A,#E0592A); color:#1A0E05; padding:15px 40px; border-radius:10px; font-weight:800; text-decoration:none; font-size:19px;">دانلود آخرین نسخه — 0.5.0</a>
 </p>
 
 - فایل نصب: `Event.Timer.Studio-0.5.0-setup.exe`
